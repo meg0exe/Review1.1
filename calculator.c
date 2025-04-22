@@ -6,7 +6,8 @@ int main() {
    scanf("%c", &Operator);
    printf("Enter the values of Operands num1 and num2  : ");
    scanf("%f%f", &num1, &num2);
-   switch (Operator) {
+   switch (Operator) 
+   {
       case '+':
          result = num1 + num2;
          break;
@@ -19,4 +20,4 @@ int main() {
    }
    printf("The value = %f", result);
    return 0;
-}}
+}
